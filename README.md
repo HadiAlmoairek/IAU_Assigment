@@ -1,52 +1,42 @@
-# Lab 1: Git and GitHub Exploration
+# Lab 2: Bank Customer Churn Prediction
 
 **Course:** ARTI308 - Machine Learning  
-**Student:** Hadi Al Moairk
+**Student:** Hadi Al Moairk  
+**Problem Type:** Binary Classification
 
 ---
 
-## 🎯 Objectives
+## 📊 Dataset
 
-- Create GitHub account
-- Learn Git fundamentals
-- Explore version control concepts
-- Understand branching strategies
-
----
-
-## ✅ Completed Tasks
-
-1. **Created GitHub Account**
-2. **Learned Git Commands:**
-   - `git init`, `git add`, `git commit`
-   - `git push`, `git pull`, `git clone`
-   - `git branch`, `git checkout`
-3. **Explored GitHub Features**
-   - Repositories and branches
-   - Version control workflows
-   - README documentation
+**Name:** Bank Customer Churn  
+**Source:** Kaggle  
+**Size:** 10,000 rows × 14 columns
 
 ---
 
-## 📚 Key Learnings
+## 🎯 Problem Definition
 
-**Git:** Distributed version control system for tracking changes
-
-**GitHub:** Cloud platform for hosting Git repositories
-
-**Why Version Control in ML:**
-- Track experiments and model versions
-- Collaborate with team members
-- Ensure reproducibility
-- Organize code and documentation
+**Type:** Binary Classification  
+**Target:** Exited (0 = Stayed, 1 = Churned)  
+**Goal:** Predict customer churn based on profile and behavior
 
 ---
 
-## 🔄 Branching Strategy
+## 📁 Deliverables
 
-- `main` - Main repository overview
-- `Lab-1` - Lab 1 materials
-- `Lab-2` - Lab 2 materials
+1. ✅ Problem Definition Document
+2. ✅ Jupyter Notebook (Data Loading & Exploration)
+3. ✅ Methodology Diagram
+4. ✅ Dataset (CSV)
+
+---
+
+## 🔬 Key Findings
+
+- **10,000 customer records**
+- **No missing values**
+- **Binary classification problem**
+- **Target distribution:** ~80% stayed, ~20% churned
 
 ---
 
