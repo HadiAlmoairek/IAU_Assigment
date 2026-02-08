@@ -17,7 +17,7 @@ This repository contains all laboratory assignments for the Machine Learning cou
 
 ### ✅ Lab 1: Git & GitHub Exploration
 **Branch:** `Lab-1`  
-**Link:** [View Lab 1](../../tree/Lab-1)
+**Link:** [View Lab 1]([../../tree/Lab-1](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab1?tab=readme-ov-file))
 
 ### ✅ Lab 2: Bank Customer Churn Prediction
 **Branch:** `Lab-2`  
