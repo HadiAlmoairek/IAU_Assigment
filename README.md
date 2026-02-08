@@ -22,7 +22,7 @@ This repository contains all laboratory assignments for the Machine Learning cou
 ### ✅ Lab 2: Bank Customer Churn Prediction
 **Branch:** `Lab-2`  
 **Problem Type:** Binary Classification  
-**Link:** [View Lab 2](https://github.com/HadiAlmoairek/IAU_Assigment/blob/Lab2/README.md)
+**Link:** [View Lab 2](https://github.com/HadiAlmoairek/IAU_Assigment/blob/Lab2)
 
 ---
 
