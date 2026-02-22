@@ -16,13 +16,19 @@ This repository contains all laboratory assignments for the Machine Learning cou
 ## 📋 Labs
 
 ### ✅ Lab 1: Git & GitHub Exploration
-**Branch:** `Lab-1`  
+**Branch:** `Lab1`  
 **Link:** [View Lab 1](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab1)
 
 ### ✅ Lab 2: Bank Customer Churn Prediction
-**Branch:** `Lab-2`  
+**Branch:** `Lab2`  
 **Problem Type:** Binary Classification  
-**Link:** [View Lab 2](https://github.com/HadiAlmoairek/IAU_Assigment/blob/Lab2)
+**Link:** [View Lab 2](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab2)
+
+### ✅ Lab 3: EDA & Data Visualization
+**Branch:** `Lab3`  
+**Topics:** Exploratory Data Analysis (EDA), Data Visualization (Matplotlib & Seaborn)  
+**Dataset:** `Chocolate_Sales.csv`  
+**Link:** [View Lab 3](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab3)
 
 ---
 
