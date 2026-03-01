@@ -1,45 +1,30 @@
-# 🎓 IAU Assignment - ARTI308
+# Lab 4 — Data Quality Assessment & Preprocessing
 
-**Course:** ARTI308 - Machine Learning  
-**Institution:** IAU (Imam Abdulrahman Bin Faisal University)  
-**Student:** Hadi Al Moairk  
-**Semester:** Spring 2026
+**Course:** CYS 313: Computer Data Security and Privacy  
+**Student:** HADI ABDULQADIER ALI ALMOAIREK  
+**ID:** 2240002278  
+**Section:** 6ms1  
+**Date:** 4/2/2026
 
----
+## What’s included
+This repo contains the final notebook for Lab 4 with Tasks 1–5:
 
-## 📚 Repository Overview
+1. Identify data quality issues  
+2. Missing value strategy (artificial missingness + median imputation)  
+3. Outlier detection/handling (IQR + capping)  
+4. Normalization (Min-Max and Z-score)  
+5. PCA + explained variance interpretation  
 
-This repository contains all laboratory assignments for the Machine Learning course (ARTI308).
+## Files
+- `Lab4_DataQuality_Preprocessing.ipynb` — main submission
+- `Chocolate_Sales.csv` — original dataset
+- `data_cleaned.csv` — cleaned types (Date parsed, Amount numeric)
+- `data_imputed.csv` — missing values introduced + imputed
+- `data_processed_with_pca.csv` — outliers handled + scaling + PCA columns
 
----
-
-## 📋 Labs
-
-### ✅ Lab 1: Git & GitHub Exploration
-**Branch:** `Lab1`  
-**Link:** [View Lab 1](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab1)
-
-### ✅ Lab 2: Bank Customer Churn Prediction
-**Branch:** `Lab2`  
-**Problem Type:** Binary Classification  
-**Link:** [View Lab 2](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab2)
-
-### ✅ Lab 3: EDA & Data Visualization
-**Branch:** `Lab3`  
-**Topics:** Exploratory Data Analysis (EDA), Data Visualization (Matplotlib & Seaborn)  
-**Dataset:** `Chocolate_Sales.csv`  
-**Link:** [View Lab 3](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab3)
-
----
-
-## 🛠️ Technologies
-
-- Python 3.x
-- Jupyter Notebook
-- Pandas, NumPy, Matplotlib, Seaborn
-- Git & GitHub
-
----
-
-**Last Updated:** February 2026  
-**University:** Imam Abdulrahman Bin Faisal University (IAU)
+## Run locally
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
+Open the notebook and **Run All**.
