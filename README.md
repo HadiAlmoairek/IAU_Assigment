@@ -1,52 +1,27 @@
-# 🎓 IAU Assignment - ARTI308
+# ✅ ARTI308 — Lab 5 (Feature Engineering)
 
-**Course:** ARTI308 - Machine Learning  
-**Institution:** IAU (Imam Abdulrahman Bin Faisal University)  
-**Student:** Hadi Al Moairk  
-**Semester:** Spring 2026
+**Student:** HADI ABDULQADIER ALI ALMOAIREK  
+**ID:** 2240002278  
+**Section:** 6ms1  
+**Date:** 4/2/2026
 
----
+## Overview
+This lab focuses on **feature engineering** for a classification task:
+Predict `Order_Status` using a Talabat-style orders dataset.
 
-## 📚 Repository Overview
+## What I did (Student Tasks)
+- **Task 1:** Added an engineered feature `Price_per_Item = Total_Price / Quantity` and justified it.
+- **Task 2:** Tested an alternative `is_peak_hour` definition and compared accuracy.
+- **Task 3:** Tested different `top_k` values for `Item_Name_reduced` (10, 30, 50) and compared accuracy + top feature importances.
+- **Task 4:** Ran feature selection (SelectFromModel) and discussed whether it helped.
 
-This repository contains all laboratory assignments for the Machine Learning course (ARTI308).
+## Files
+- `ARTI308 Lab5 - Solved.ipynb` — final notebook submission
+- `talabat_enhanced_orders.csv` — dataset used
 
----
-
-## 📋 Labs
-
-### ✅ Lab 1: Git & GitHub Exploration
-**Branch:** `Lab1`  
-**Link:** [View Lab 1](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab1)
-
-### ✅ Lab 2: Bank Customer Churn Prediction
-**Branch:** `Lab2`  
-**Problem Type:** Binary Classification  
-**Link:** [View Lab 2](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab2)
-
-### ✅ Lab 3: EDA & Data Visualization
-**Branch:** `Lab3`  
-**Topics:** Exploratory Data Analysis (EDA), Data Visualization (Matplotlib & Seaborn)  
-**Dataset:** `Chocolate_Sales.csv`  
-**Link:** [View Lab 3](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab3)
-
-### ✅ Lab 4: Data Quality Assessment & Preprocessing
-**Branch:** `Lab4`  
-**Topics:** Data Quality Issues, Missing Values Strategy, Outliers (IQR), Normalization (Min-Max & Z-score), PCA  
-**Dataset:** `Chocolate_Sales.csv`  
-**Link:** [View Lab 4](https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab4)
-
----
-
-## 🛠️ Technologies
-
-- Python 3.x
-- Jupyter Notebook
-- Pandas, NumPy, Matplotlib, Seaborn
-- Scikit-learn
-- Git & GitHub
-
----
-
-**Last Updated:** March 2026  
-**University:** Imam Abdulrahman Bin Faisal University (IAU)
+## Run
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
+Open the notebook and **Run All**.
