@@ -1,57 +1,64 @@
-# 🎓 IAU Assignment - ARTI308
+# Lab 6 – Linear Regression
 
-**Course:** ARTI308 - Machine Learning  
-**Institution:** IAU (Imam Abdulrahman Bin Faisal University)  
-**Student:** Hadi Almoairek  
-**Semester:** Spring 2026
-
----
-
-## 📚 Repository Overview
-This repository contains all laboratory assignments for the Machine Learning course (ARTI308).
+**Course:** ARTI 308 – Machine Learning  
+**Dataset:** Medical Insurance Cost (`insurance.csv`)  
+**Target:** `charges` — Predict individual medical insurance cost (continuous)
 
 ---
 
-## 📋 Labs
+## Learning Goals
 
-### ✅ Lab 1: Git & GitHub Exploration
-**Branch:** `Lab1`  
-**Link:** https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab1
-
-### ✅ Lab 2: Bank Customer Churn Prediction
-**Branch:** `Lab2`  
-**Problem Type:** Binary Classification  
-**Link:** https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab2
-
-### ✅ Lab 3: EDA & Data Visualization
-**Branch:** `Lab3`  
-**Topics:** Exploratory Data Analysis (EDA), Data Visualization  
-**Dataset:** `Chocolate_Sales.csv`  
-**Link:** https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab3
-
-### ✅ Lab 4: Data Quality Assessment & Preprocessing
-**Branch:** `Lab4`  
-**Topics:** Data Quality Issues, Missing Values, Outliers (IQR), Normalization (Min-Max & Z-score), PCA  
-**Dataset:** `Chocolate_Sales.csv`  
-**Link:** https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab4
-
-### ✅ Lab 5: Feature Engineering (Talabat Orders)
-**Branch:** `Lab5`  
-**Topics:** Feature Engineering, Peak Hour Feature, Top-K Category Reduction, Feature Selection, Model Comparison  
-**Dataset:** `talabat_enhanced_orders.csv`  
-**Link:** https://github.com/HadiAlmoairek/IAU_Assigment/tree/Lab5
+- Build an end-to-end regression pipeline
+- Encode categorical features for use in a linear model
+- Split data into training and test sets
+- Train a Linear Regression model using scikit-learn
+- Evaluate model performance using MAE, MSE, and RMSE
+- Interpret model coefficients
 
 ---
 
-## 🛠️ Technologies
-- Python 3.x
-- Jupyter Notebook
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-- Git & GitHub
+## Files
+
+| File | Description |
+|---|---|
+| `lab6_linear_regression.ipynb` | Jupyter Notebook — full regression pipeline |
+| `insurance.csv` | Medical Insurance Cost dataset (1,338 rows × 7 cols) |
+| `README.md` | This file |
 
 ---
 
-**Last Updated:** March 2026  
-**University:** Imam Abdulrahman Bin Faisal University (IAU)
+## Steps in the Notebook
+
+| Step | Description |
+|---|---|
+| 1 | Load dataset with Pandas |
+| 2 | Explore with `.head()`, `.info()`, `.describe()`, scatter plots |
+| 3 | Clean data — check missing values, encode `sex`, `smoker`, `region` |
+| 4 | Train/Test split (80% / 20%, `random_state=42`) |
+| 5 | Train `LinearRegression` from `sklearn.linear_model` |
+| 6 | Evaluate — MAE, MSE, RMSE |
+| 7 | Plot: Actual vs Predicted, Residuals Distribution |
+
+---
+
+## Evaluation Metrics
+
+| Metric | Formula | Meaning |
+|---|---|---|
+| MAE | mean(|y - ŷ|) | Average absolute error in dollars |
+| MSE | mean((y - ŷ)²) | Penalises large errors more heavily |
+| RMSE | √MSE | Same unit as target (USD) — most interpretable |
+
+---
+
+## Key Insight
+
+`smoker_enc` carries the largest coefficient by far, confirming that smoking is the single biggest determinant of insurance cost. `age` and `bmi` also contribute positively.
+
+---
+
+## How to Run
+
+```bash
+jupyter notebook lab6_linear_regression.ipynb
+```
